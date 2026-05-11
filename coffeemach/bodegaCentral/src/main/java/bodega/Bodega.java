@@ -15,4 +15,10 @@ public interface Bodega {
 
     public void separarExistencias();
 
+    public ResultadoAtencion atenderOrden(OrdenBodega orden);
+
+    public String recursoParaAlarma(int idAlarma);
+
+    public boolean soportaAlarma(int idAlarma);
+
 }
